@@ -61,3 +61,4 @@ your_project/
 ├── Database.py  
 ├── requirements.txt  
 └── other_files/  
+**Other files include 'bg_img.jpg' which contains the background image of web page, 'Weather_data.db' which is a database file for testing purpose and it has dummy data from 1st September 2024 to 14 September 2024. Hence while testing put date range within those dates only. **
