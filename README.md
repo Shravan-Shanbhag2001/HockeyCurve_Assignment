@@ -16,7 +16,7 @@ SQLite
 1.Clone the Repository  
 
 Copy below bash code and execute in cmd(after navigating to folder where u want to create this project):  
-git clone <repository-url> cd weather-screener  
+git clone https://github.com/Shravan-Shanbhag2001/HockeyCurve_Assignment.git cd weather-screener  
 
 2.Install Dependencies  
 
@@ -61,4 +61,4 @@ your_project/
 ├── Database.py  
 ├── requirements.txt  
 └── other_files/  
-**Other files include 'bg_img.jpg' which contains the background image of web page, 'Weather_data.db' which is a database file for testing purpose and it has dummy data from 1st September 2024 to 14 September 2024. Hence while testing put date range within those dates only. **
+**Other files include 'bg_img.jpg' which contains the background image of web page, 'Weather_data.db' which is a database file for testing purpose and it has dummy data from 1st September 2024 to 14 September 2024. Hence while testing put date range within those dates only.**
