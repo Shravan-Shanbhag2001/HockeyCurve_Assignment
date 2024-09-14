@@ -15,13 +15,26 @@ SQLite
 
 1.Clone the Repository  
 
-Copy below bash code and execute:  
+Copy below bash code and execute in cmd(after navigating to folder where u want to create this project):  
 git clone <repository-url> cd weather-screener  
 
 2.Install Dependencies  
 
-Navigate to the folder containing your Flask application and install the required packages:  
+Navigate to the folder containing your Flask application and Execute the below command to create a virtual environment within this folder:  
+python -m venv venv  
+This command will create a venv folder inside your project folder. This folder will contain the virtual environment’s files and dependencies.  
 
+Activate the Virtual Environment:
+
+Windows:
+Copy below bash code and execute:  
+venv\Scripts\activate  
+
+macOS/Linux:  
+Copy below bash code and execute 
+source venv/bin/activate  
+
+Then install depenencies:  
 Copy below bash code and execute:  
 pip install -r requirements.txt  
 
@@ -38,4 +51,13 @@ This will start the Flask server. The API will be available at http://localhost:
 Run the Streamlit Application  
 streamlit run app.py  
 This will start the Streamlit server. The app will be available at http://localhost:8501.
-  
+
+**Finally make sure the project structure looks like this:**  
+
+your_project/  
+├── venv/  
+├── Backend Code  
+├── Frontend Code  
+├── Database.py  
+├── requirements.txt  
+└── other_files/  
