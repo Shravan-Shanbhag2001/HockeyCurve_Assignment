@@ -120,7 +120,7 @@ with st.container():
         st.session_state['button_pressed'] = True  # Mark button as pressed
 
         # Fetches current weather data
-        response = requests.get(f"http://localhost:5000/get-current-weather-data?location={selected_location}")
+        response = requests.get(f"https://shravan2001.pythonanywhere.com/get-current-weather-data?location={selected_location}")
         
         if response.status_code == 200:
             data = response.json()
@@ -170,7 +170,7 @@ with st.container():
                     start_date_str = start_date.strftime('%d-%m-%Y')
                     end_date_str = end_date.strftime('%d-%m-%Y')
 
-                    response = requests.get(f"http://localhost:5000/get-range_weather-data?start_date={start_date_str}&end_date={end_date_str}")
+                    response = requests.get(f"https://shravan2001.pythonanywhere.com/get-range_weather-data?start_date={start_date_str}&end_date={end_date_str}")
                     if response.status_code == 200:
                         data = response.json()
                         # Convert to DataFrame and plot
@@ -234,3 +234,4 @@ with st.container():
 
 # Footer
 st.markdown("<div class='footer'>Made By Shravan Shanbhag</div>", unsafe_allow_html=True)
+
