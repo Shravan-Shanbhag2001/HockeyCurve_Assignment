@@ -16,7 +16,7 @@ SQLite
 1.Clone the Repository  
 
 Copy below bash code and execute in cmd(after navigating to folder where u want to create this project):  
-git clone https://github.com/Shravan-Shanbhag2001/HockeyCurve_Assignment.git cd weather-screener  
+git clone https://github.com/Shravan-Shanbhag2001/Weather-Data-Aggregator.git cd weather-screener  
 
 2.Install Dependencies  
 
